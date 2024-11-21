@@ -11,7 +11,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Set view engine to EJS (for dynamic HTML rendering)
 app.set('view engine', 'ejs');
-// test comment
 app.set('views', path.join(__dirname, 'views'));
 
 // Route for the homepage
